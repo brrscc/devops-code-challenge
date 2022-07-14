@@ -1,3 +1,16 @@
+# Brian's Response
+
+To view the running website, please visit: http://54.175.78.129:3000/
+
+To replicate the deployment:
+1. Create an AWS EC2 instance
+2. Clone the repository locally
+3. Update the backend/config.js file to include the public IP address of your EC2 instance and the frontend port (e.g. 'http://54.175.78.129:3000')
+4. Update the frontend/src/config.js file to include the public IP address of your EC2 instance and the backend port (e.g. 'http://54.175.78.129:8080/')
+5. Execute the commands listed below to start the backend and then frontend service
+
+As a note, I would be happy to include some of the extra features on this project, but I have multiple interviews/assessments to work on and wanted to keep to the time limit. If it would be helpful in my evaluation, I would be happy to work on some extra features next week. :-)
+
 # Overview
 This repository contains a React frontend, and an Express backend that the frontend connects to.
 
